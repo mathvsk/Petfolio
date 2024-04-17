@@ -1,6 +1,13 @@
-@Petfolio.API_HostAddress = http://localhost:5186
+@Petfolio.API_HostAddress = https://localhost:7218
 
-GET {{Petfolio.API_HostAddress}}/weatherforecast/
+POST {{Petfolio.API_HostAddress}}/api/Pet/
 Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Atreus",
+  "birthday": "2024-04-17T23:47:21.677Z",
+  "pet": 1
+}
 
 ###
