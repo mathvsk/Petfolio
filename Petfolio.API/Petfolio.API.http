@@ -28,3 +28,8 @@ GET {{Petfolio.API_HostAddress}}/api/Pet/
 Accept: application/json
 
 ###
+
+GET {{Petfolio.API_HostAddress}}/api/Pet/7
+Accept: application/json
+
+###
