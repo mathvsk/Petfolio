@@ -11,3 +11,15 @@ Content-Type: application/json
 }
 
 ###
+
+PUT {{Petfolio.API_HostAddress}}/api/Pet/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Astreus",
+  "birthday": "2024-04-17T23:47:21.677Z",
+  "pet": 1
+}
+
+###
