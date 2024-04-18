@@ -23,3 +23,8 @@ Content-Type: application/json
 }
 
 ###
+
+GET {{Petfolio.API_HostAddress}}/api/Pet/
+Accept: application/json
+
+###
